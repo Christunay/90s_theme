@@ -1,0 +1,16 @@
+/*General Styles*/
+body {
+    margin: 0;
+    font-family: "Courier New", monospace;
+    background-color: #5ac2f2;
+    color: black;
+    cursor: url('assets/pixel-cursor.png'), auto;
+    overflow: hidden;
+  }
+
+  .background {
+    background: url('assets/pixel-background.gif') repeat;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -1;
+  }
